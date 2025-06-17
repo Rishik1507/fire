@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crypt.it</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Crypt.it Event</h1>
+  <form id="quiz-form">
+    <label for="question">Question:</label>
+    <select id="question" name="question">
+      <option value="ques1">Who is Parin?</option>
+      <option value="ques2">Who is Soham?</option>
+    </select>
+    <br>
+    <label for="answer">Answer:</label>
+    <input type="text" id="answer" name="answer" required>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="result"></p>
+
+  <!-- Firebase SDKs -->
+  <script type="module">
+   const _0x3ec0ec=_0xf48d;function _0x3359(){const _0x1f3499=['answer','green','style','16mESCqT','\x20Error\x20connecting\x20to\x20database.','value','preventDefault','AIzaSyAcmSQkkmD7N70YGQLjpvj_2Bc6JdKqHOk','11SEgRwb','textContent','submit','getElementById','236714zfVpdW','439367593032','\x20Correct\x20Answer!','4315401xdMYat','orange','toLowerCase','trim','addEventListener','33oGBfSi','3937172VutAzC','847pXWYTG','crypt-bcb2b.appspot.com','color','exists','https://crypt-bcb2b-default-rtdb.firebaseio.com','\x20Incorrect\x20Answer.','quiz-form','\x20Question\x20not\x20found\x20in\x20database.','363394uxsUTu','2131980pKCQFi','red','1:439367593032:web:5d7f4d4d5daa043e94bc7d','val','27882TdRdaI','18223930MYhzxK','crypt-bcb2b'];_0x3359=function(){return _0x1f3499;};return _0x3359();}(function(_0x24eebd,_0x300b69){const _0x1f35d8=_0xf48d,_0x3f7595=_0x24eebd();while(!![]){try{const _0x44c50b=-parseInt(_0x1f35d8(0x105))/0x1+-parseInt(_0x1f35d8(0x119))/0x2*(-parseInt(_0x1f35d8(0x121))/0x3)+-parseInt(_0x1f35d8(0x122))/0x4+parseInt(_0x1f35d8(0x106))/0x5+-parseInt(_0x1f35d8(0x10a))/0x6*(parseInt(_0x1f35d8(0x123))/0x7)+-parseInt(_0x1f35d8(0x110))/0x8*(parseInt(_0x1f35d8(0x11c))/0x9)+-parseInt(_0x1f35d8(0x10b))/0xa*(-parseInt(_0x1f35d8(0x115))/0xb);if(_0x44c50b===_0x300b69)break;else _0x3f7595['push'](_0x3f7595['shift']());}catch(_0x3cc627){_0x3f7595['push'](_0x3f7595['shift']());}}}(_0x3359,0xa6724));import{initializeApp}from'https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js';import{getDatabase,ref,get,child}from'https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js';function _0xf48d(_0x5e6e53,_0x1799e8){const _0x33598d=_0x3359();return _0xf48d=function(_0xf48d96,_0xd460d5){_0xf48d96=_0xf48d96-0x100;let _0x5b60bc=_0x33598d[_0xf48d96];return _0x5b60bc;},_0xf48d(_0x5e6e53,_0x1799e8);}const firebaseConfig={'apiKey':_0x3ec0ec(0x114),'authDomain':'crypt-bcb2b.firebaseapp.com','databaseURL':_0x3ec0ec(0x101),'projectId':_0x3ec0ec(0x10c),'storageBucket':_0x3ec0ec(0x124),'messagingSenderId':_0x3ec0ec(0x11a),'appId':_0x3ec0ec(0x108)},app=initializeApp(firebaseConfig),db=getDatabase(app);document[_0x3ec0ec(0x118)](_0x3ec0ec(0x103))[_0x3ec0ec(0x120)](_0x3ec0ec(0x117),async function(_0x33801e){const _0x676b21=_0x3ec0ec;_0x33801e[_0x676b21(0x113)]();const _0x2e4975=document['getElementById']('question')[_0x676b21(0x112)],_0x375e83=document[_0x676b21(0x118)](_0x676b21(0x10d))['value'][_0x676b21(0x11f)](),_0x431f1d=document[_0x676b21(0x118)]('result');try{const _0x36219a=ref(db),_0x1ae59c=await get(child(_0x36219a,_0x2e4975));if(_0x1ae59c[_0x676b21(0x100)]()){const _0x119863=_0x1ae59c[_0x676b21(0x109)]();_0x375e83[_0x676b21(0x11e)]()===_0x119863[_0x676b21(0x11e)]()?(_0x431f1d['textContent']=_0x676b21(0x11b),_0x431f1d[_0x676b21(0x10f)][_0x676b21(0x125)]=_0x676b21(0x10e)):(_0x431f1d[_0x676b21(0x116)]=_0x676b21(0x102),_0x431f1d[_0x676b21(0x10f)][_0x676b21(0x125)]=_0x676b21(0x107));}else _0x431f1d[_0x676b21(0x116)]=_0x676b21(0x104),_0x431f1d[_0x676b21(0x10f)][_0x676b21(0x125)]=_0x676b21(0x11d);}catch(_0x305535){console['error'](_0x305535),_0x431f1d[_0x676b21(0x116)]=_0x676b21(0x111),_0x431f1d[_0x676b21(0x10f)][_0x676b21(0x125)]='gray';}});
+  </script>
+</body>
+</html>
